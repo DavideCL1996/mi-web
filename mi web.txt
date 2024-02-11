@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Personal</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>¡Bienvenido a mi Página Personal!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Acerca de mí</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#education">Educación</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="Acerca de mi">
+            <h2>Acerca de mí</h2>
+            <p>¡Hola! Soy [Nombre], y aquí puedes conocer un poco más sobre mí...</p>
+        </section>
+        <section id="Experiencia">
+            <h2>Experiencia</h2>
+            <p>Detalles sobre mi experiencia laboral...</p>
+        </section>
+        <section id="Educacion">
+            <h2>Educación</h2>
+            <p>Detalles sobre mi educación...</p>
+        </section>
+        <section id="Habilidades">
+            <h2>Habilidades</h2>
+            <p>Lista de mis habilidades...</p>
+        </section>
+        <section id="projects">
+            <h2>Proyectos</h2>
+            <p>Descripción de algunos de mis proyectos...</p>
+        </section>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de [correo electrónico] o [número de teléfono]...</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Página Web Personal. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
+/* Estilos para la página web personal */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
